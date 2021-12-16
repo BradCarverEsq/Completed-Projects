@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+    
+<main>
+    <body>
+        <!-- Nav bar -->
+        <nav>
+
+            <img src="./Air_Canada_Logo.svg" alt='' id="logo" class="poo">
+            <ul class="dummy-links">
+                <li><a href=''>COVID-19</a></li>
+                <li><a href=''>Marketplace</a></li>
+                <li><a href=''>Closures</a></li>
+            </ul>
+            <img src="./airplane.png" alt='' id="airplane">
+        </nav>
+        <div >
+            <ul id="pop" class="links">
+                <li><a href='#col'>Themes</a></li>
+                <li><a href='#lik'>Likes</a></li>
+                <li><a href='#rev'>Reviews</a></li>
+                <li><a href='#cus'>Flights</a></li>
+            </ul>
+        </div>
+        <!-- Color Scheme Switcher -->
+        <div class="cont man" id="col">
+            <h1>Change The Website Colour Scheme!</h1>
+            <button id="clr-button" class="chg2">color</button>
+        </div>
+        <!-- Like Counter -->
+        <div class="cont alt" id="lik">
+            <h1>Likes</h1>
+            <p id="counter">130000</p>
+            <button class="cnty" id="inc-button" >+</button>
+            <button class="cnty" id="dec-button" >-</button>
+            <button class="cnty" id="res-button" >(Admin Only) Reset Button</button>
+        </div>
+        <!-- Reviews -->
+        <div class="cont man" id="rev">
+            <h1 id="name">h</h1>
+            <h3 id="job">h</h3>
+            <img src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg" alt='' id="imgy">
+            <p id="text">h</p>
+            <button class="revi" id="left-button"><</button>
+            <button class="revi" id="right-button">></button>
+            <button class="revi" id="prob-button">random</button>
+        </div>
+        <!-- Flight Recommender -->
+        <div class="cont alt" id="cus">
+          <h1> I want to go somewhere <select id="input">
+              <option selected value="null" disabled>...</option>
+              <option value="hot">Hot</option>
+              <option value="cold">Cold</option>
+              <option value="exotic">Exotic</option>
+              <option value="homely">Close to Home</option>
+          </select> for my next trip. </h1>
+          <h3 id="place">h</h3>
+          <h2 id="price">h</h2>
+          <button id="recy">Recommend Me a Trip</button>
+        </div>
+        <footer id="chg">
+
+        </footer>
+        <script src="./app.js"></script>
+    </body>
+</main>
+</html>
